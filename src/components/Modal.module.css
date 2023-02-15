@@ -1,0 +1,53 @@
+@import url('https://fonts.google.com/specimen/Poppins?preview.text=regular&preview.text_type=custom&query=popp');
+.modal {
+    box-sizing: border-box;
+  
+    position: absolute;
+    width: 996px;
+    height: 590px;
+    left: 462px;
+    top: 245px;
+    
+    background: #FFFFFF;
+    /* box stroke */
+    border: 1px solid #D0D5DD;
+  }
+  
+  .backdrop {
+  
+    background: rgba(52, 64, 84, 0.4);
+    position: absolute;
+width: 1920px;
+height: 1080px;
+left: 0px;
+top: 0px;
+  }
+  .topdiv{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .text {
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: black;
+font-family: 'Poppins',sans-serif;
+  }
+  .closeBTN {
+    border: 0;
+    background-color: transparent;
+    border-radius: 4px;
+    height:fit-content;
+    justify-content: center;
+    align-items: center;
+  }
+.closeBTN:hover,
+.closeBTN:active {
+    background-color: rgb(232, 228, 228);
+  }
