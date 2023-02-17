@@ -11,11 +11,11 @@ const App = () => {
       {OpenModal ?
         <Modal onClose={() => ToggleModal(false)} />
         :
-        <button onClick={() => ToggleModal(true)}>
+     <></>
+      }
+   <button onClick={() => ToggleModal(true)}>
           Open Modal
         </button>
-      }
-
     </div>
   );
 }

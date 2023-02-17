@@ -1,5 +1,6 @@
 import React from "react";
 import { ReactComponent as Close } from '../assets/close.svg';
+import AddPage from "./AddPage/AddPage";
 import classes from './Modal.module.css';
 
 
@@ -16,6 +17,7 @@ const Modal = (props) => {
                     </button>
                   
                 </div>
+                <AddPage/>
             </div>
         </div>
     )

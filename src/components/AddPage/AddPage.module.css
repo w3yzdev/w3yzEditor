@@ -1,0 +1,139 @@
+.ulStyle {
+    display: flex;
+    flex-direction: row;
+    width: '100%';
+    list-style: none;
+    padding-left: 30px;
+    background-color: white;
+    padding-bottom: 0px;
+
+}
+
+.liStyle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    color: #000000;
+    padding: 0px 12px;
+    gap: 0px;
+    width: 74px;
+    height: 34px;
+    padding-bottom: 0px;
+}
+
+.divider {
+    border-top: 1px solid #F2F4F7;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+
+.BTNS {
+    border: transparent;
+    background-color: transparent;
+}
+
+.BTNS:hover {
+    background-color: #F2F4F7;
+
+
+    /* bar section */
+    background: #F2F4F7;
+    border-radius: 8px;
+}
+
+.flastlist {
+
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    background-color: white;
+    padding-right: 5%;
+
+
+
+}
+
+.renderPageItem {
+    width: 220px;
+    height: 290px;
+    background: #FFFFFF;
+    /* bar section */
+    border: 1px solid #F2F4F7;
+
+}
+
+
+
+.images {
+    padding: 0px 3px;
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.renderPageItem:hover {
+    background: rgba(52, 64, 84, 0.6);
+
+
+}
+
+.renderPageItem:hover .addPageBTN {
+    display: flex;
+}
+.renderPageItem:hover .image{
+    opacity: 0.7;
+}
+.image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: auto;
+   
+
+
+}
+
+.modalContainer {
+    height: 400px;
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 26px;
+
+}
+
+.maindivAddPage {
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-right: 26px;
+
+
+}
+
+.addPageBTN {
+    width: 114px;
+    height: 37px;
+    border-radius: 8px;
+    border-width: 0;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    text-transform: capitalize;
+    display: none;
+    position: absolute;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+
+}
