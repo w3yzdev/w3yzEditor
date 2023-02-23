@@ -6,9 +6,8 @@
   position: absolute;
   width: 996px;
   height: 590px;
-  left: 465px;
-  top: 245px;
-
+ 
+align-self: center;
   background: #FFFFFF;
   /* box stroke */
   border: 1px solid #D0D5DD;
@@ -17,10 +16,12 @@
 .backdrop {
   background: rgba(52, 64, 84, 0.4);
   position: absolute;
-  width: 1920px;
-  height: 1080px;
-  left: 0px;
-  top: 0px;
+display: flex;
+justify-content: center;
+width: 100%;
+height: 100%;
+
+
 }
 
 .topdiv {
@@ -28,7 +29,8 @@
   flex-direction: row;
   background-color: white;
   justify-content: space-between;
-  padding-top: 30px;
+ align-items: center;
+ padding-top: 15px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -49,9 +51,12 @@
   height: fit-content;
   justify-content: center;
   align-items: center;
+  display: flex;
 }
+
 
 .closeBTN:hover,
 .closeBTN:active {
+  cursor: pointer;
   background-color: rgb(232, 228, 228);
 }
